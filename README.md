@@ -1,4 +1,4 @@
-# **BrewVista Coffee Sales Analysis :**
+# **Business Performance Analysis of Joybox Toy Store:**
 
 
 ## Table of Contents  
@@ -20,7 +20,7 @@
 ---
 
 ##  Project Background 
-BrewVista is a fictitious coffee shop chain operating across three locations in New York City — Astoria, Hell’s Kitchen, and Lower Manhattan. As a Data Consultant, I was tasked with extracting meaningful insights from sale's data and providing actionable recommendations to improve performance across sales , product and marketing teams.
+This dataset represents sales and inventory data from a fictitious toy store chain in Mexico called JoyBox Toy Store. It includes **829K** rows detailed information about products, store locations, daily sales transactions, and inventory levels across each branch. The dataset enables analysis of sales trends, stock availability, and overall business performance over time.
 
 
 ---
