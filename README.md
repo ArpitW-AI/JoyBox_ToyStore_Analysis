@@ -30,6 +30,9 @@ This dataset represents sales and inventory data from a fictitious toy store cha
 BrewVista earned **$698K** revenue (Jan–Jun 2023) with balanced sales across all stores. Sales **grew strongly** after February and peaked in June, though the pace has slowed. Beverages dominate with Coffee and Tea driving **66%** of revenue, while categories like Loose Tea and Packaged Chocolate remain weak. Astoria shows **steady demand** even with shorter hours, while evening traffic at Hell’s Kitchen and Lower Manhattan **drops sharply**.
 To build on these trends, BrewVista could run fresh promotions to sustain growth, rebrand or bundle underperforming categories, extend hours at Astoria, and close earlier at low-traffic stores to save costs.
 
+<p align="center">
+  <img src="joybox_ERD.PNG" alt="Dashboard Preview" width="590"/>
+</p>
 ---
 
 ## Insights Deep-Dive
