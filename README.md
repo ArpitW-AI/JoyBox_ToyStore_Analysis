@@ -27,8 +27,10 @@ This dataset represents sales and inventory data from a fictitious toy store cha
 
 
 ## Executive Summary
-BrewVista earned **$698K** revenue (Jan–Jun 2023) with balanced sales across all stores. Sales **grew strongly** after February and peaked in June, though the pace has slowed. Beverages dominate with Coffee and Tea driving **66%** of revenue, while categories like Loose Tea and Packaged Chocolate remain weak. Astoria shows **steady demand** even with shorter hours, while evening traffic at Hell’s Kitchen and Lower Manhattan **drops sharply**.
-To build on these trends, BrewVista could run fresh promotions to sustain growth, rebrand or bundle underperforming categories, extend hours at Astoria, and close earlier at low-traffic stores to save costs.
+JoyBox Toy Store generated $14M in sales between January 2022 and September 2023, earning over $4M in profit. Monthly sales grew 16% in March but dropped -16% in August, likely due to exam season, before rebounding by 32% in December during the holidays.
+Art & Crafts and Toys dominated sales with 54% contribution, while Electronics achieved the highest profit margin (44%). The Downtown store led performance with $8M in sales and $2M profit, whereas the Airport store, despite only 9% of total sales, had the highest AOV ($18.85).
+LEGO Bricks stood out as the best-selling product, generating $2M sales with an AOV of $49.75, though its stock levels remain critically low.
+To boost profitability, increase stock levels of top-selling items like LEGO Bricks and Electronics by 15–20%, and introduce promotional offers in off-peak months (July–August) to stabilize seasonal sales dips.
 
 <p align="center">
   <img src="joybox_ERD.PNG" alt="Dashboard Preview" width="590"/>
