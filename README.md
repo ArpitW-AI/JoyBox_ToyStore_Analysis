@@ -12,7 +12,7 @@
 
 ---
 
-![Dashboard Preview](joybox_dashboard2.PNG)
+![Dashboard Preview](joybox_dashboard3.PNG)
 
 ---
 
