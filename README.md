@@ -52,11 +52,15 @@ To boost profitability and stabilize sales, it is recommended to **increase stoc
     <td style="width:50%; text-align:center;">
       <img src="2022_jb.PNG" alt="JoyBox Sales 2022" width="300"/>
     </td>
-    <td style="width:60%; text-align:center;">
-      <img src="2023_jb.PNG" alt="JoyBox Sales 2023" width="350"/>
+    <td style="width:50%; text-align:center;">
+      <img src="2023jb.PNG" alt="JoyBox Sales 2023" width="320"/>
+    </td>
+     <td style="width:50%; text-align:center;">
+      <img src="yoy_jb.PNG" alt="JoyBox Sales 2023" width="430"/>
     </td>
   </tr>
 </table>
+
 
 ### Product and Category Performance
 
@@ -67,7 +71,7 @@ To boost profitability and stabilize sales, it is recommended to **increase stoc
 - **Deck of Cards** ranked among the top six contributors to sales despite its lower AOV, highlighting strong repeat purchases or high volume.
 
 <p align="center">
-  <img src="visualization/traffic.PNG" alt="Product Performance Visualization" width="500"/>
+  <img src="category_jb.PNG" alt="Product Performance Visualization" width="500"/>
 </p>
 
 ### Store Insights
@@ -78,7 +82,7 @@ To boost profitability and stabilize sales, it is recommended to **increase stoc
 - **Commercial** and **Residential** stores contributed **23% and 11%** of sales, respectively, showing consistent mid-tier performance across months.
 
 <p align="center">
-  <img src="visualization/most_selling.PNG" alt="Store Sales Comparison Visualization" width="600"/>
+  <img src="store_jb.PNG" alt="Store Sales Comparison Visualization" width="600"/>
 </p>
 
 ---
