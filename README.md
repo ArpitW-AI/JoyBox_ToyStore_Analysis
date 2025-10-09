@@ -33,7 +33,7 @@ JoyBox Toy Store generated **$14M in sales** and **over $4M in profit** between 
 To boost profitability and stabilize sales, it is recommended to **increase stock levels** of top-selling, high-AOV items like LEGO Bricks and Electronics by 15–20% and introduce **promotional offers** during off-peak months (July–August) to counter seasonal sales dips.
 
 <p align="center">
-  <img src="joybox_ERD.PNG" alt="Joybox Entity-Relationship Diagram" width="590"/>
+  <img src="visualizations/joybox_ERD.PNG" alt="Joybox Entity-Relationship Diagram" width="590"/>
 </p>
 
 ---
@@ -50,13 +50,13 @@ To boost profitability and stabilize sales, it is recommended to **increase stoc
 <table style="width:100%;">
   <tr>
     <td style="width:50%; text-align:center;">
-      <img src="2022_jb.PNG" alt="JoyBox Sales 2022" width="300"/>
+      <img src="visualizations/2022_jb.PNG" alt="JoyBox Sales 2022" width="300"/>
     </td>
     <td style="width:50%; text-align:center;">
-      <img src="2023jb.PNG" alt="JoyBox Sales 2023" width="320"/>
+      <img src="visualizations/2023jb.PNG" alt="JoyBox Sales 2023" width="320"/>
     </td>
      <td style="width:50%; text-align:center;">
-      <img src="yoy_jb.PNG" alt="JoyBox Sales 2023" width="430"/>
+      <img src="visualizations/yoy_jb.PNG" alt="JoyBox Sales 2023" width="430"/>
     </td>
   </tr>
 </table>
@@ -71,7 +71,7 @@ To boost profitability and stabilize sales, it is recommended to **increase stoc
 - **Deck of Cards** ranked among the top six contributors to sales despite its lower AOV, highlighting strong repeat purchases or high volume.
 
 <p align="center">
-  <img src="category_jb.PNG" alt="Product Performance Visualization" width="500"/>
+  <img src="visualizations/category_jb.PNG" alt="Product Performance Visualization" width="400"/>
 </p>
 
 ### Store Insights
@@ -82,7 +82,7 @@ To boost profitability and stabilize sales, it is recommended to **increase stoc
 - **Commercial** and **Residential** stores contributed **23% and 11%** of sales, respectively, showing consistent mid-tier performance across months.
 
 <p align="center">
-  <img src="store_jb.PNG" alt="Store Sales Comparison Visualization" width="600"/>
+  <img src="visualizations/store_jb.PNG" alt="Store Sales Comparison Visualization" width="480"/>
 </p>
 
 ---
@@ -99,6 +99,6 @@ To boost profitability and stabilize sales, it is recommended to **increase stoc
 
 ---
 
-- Raw Excel file - [here](BrewVista_Sales.xlsx)
-- My Analysis and Pivot Tables - [here](BrewVista_Sales_raw.xlsx)
+- Raw DataSet - [here](dataset)
+- My Analysis  - [here](analysis)
 - Visualizations - [here](visualization)
