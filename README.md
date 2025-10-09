@@ -1,101 +1,90 @@
-# **Business Performance Analysis of Joybox Toy Store:**
+# Business Performance Analysis of Joybox Toy Store
 
+## Table of Contents
 
-## Table of Contents  
-
-- [Project Background](#project-background)  
-- [Executive Summary](#executive-summary)  
-- [Insights Deep-Dive](#insights-deep-dive)  
-  - [Sales Trends and Growth Rates](#sales-trends-and-growth-rates)  
-  - [Peak Hours & Daily Sales Patterns](#peak-hours--daily-sales-patterns)  
-  - [Top 10 Most Selling Products](#top-10-most-selling-products)  
-  - [Product Categories by Revenue](#product-categories-by-revenue)  
-- [Recommendations](#recommendations)  
-
+- [Project Background](#project-background)
+- [Executive Summary](#executive-summary)
+- [Insights Deep-Dive](#insights-deep-dive)
+    - [Sales Performance and Growth Rates](#sales-performance-and-growth-rates)
+    - [Product and Category Performance](#product-and-category-performance)
+    - [Store Insights](#store-insights)
+- [Recommendations](#recommendations)
 
 ---
 
-![Dashboard Preview](joybox_dashboard2.PNG)  
+![Dashboard Preview](joybox_dashboard2.PNG)
 
 ---
 
-##  Project Background 
-This dataset represents sales and inventory data from a fictitious toy store chain in Mexico called JoyBox Toy Store. It includes **829K** rows detailed information about products, store locations, daily sales transactions, and inventory levels across each branch. The dataset enables analysis of sales trends, stock availability, and overall business performance over time.
+## Project Background
 
+This project analyzes sales and inventory data from a fictitious toy store chain in Mexico called **JoyBox Toy Store**. The dataset comprises **829K rows** detailing product information, store locations, daily sales transactions, and inventory levels across all branches. The analysis focuses on identifying key sales trends, stock availability issues, and overall business performance over time.
 
 ---
-
 
 ## Executive Summary
-JoyBox Toy Store generated $14M in sales between January 2022 and September 2023, earning over $4M in profit. Monthly sales grew 16% in March but dropped -16% in August, likely due to exam season, before rebounding by 32% in December during the holidays.
-Art & Crafts and Toys dominated sales with 54% contribution, while Electronics achieved the highest profit margin (44%). The Downtown store led performance with $8M in sales and $2M profit, whereas the Airport store, despite only 9% of total sales, had the highest AOV ($18.85).
-LEGO Bricks stood out as the best-selling product, generating $2M sales with an AOV of $49.75, though its stock levels remain critically low.
-To boost profitability, increase stock levels of top-selling items like LEGO Bricks and Electronics by 15–20%, and introduce promotional offers in off-peak months (July–August) to stabilize seasonal sales dips.
+
+JoyBox Toy Store generated **$14M in sales** and **over $4M in profit** between January 2022 and September 2023. Monthly sales showed high seasonality, growing **16% in March** but dropping **-16% in August** (likely due to exam season) before strongly rebounding by **32% in December** during the holidays.
+
+**Art & Crafts** and **Toys** dominated sales, contributing 54% of total revenue, while **Electronics** achieved the highest profit margin (44%). The **Downtown** store led overall performance with $8M in sales and $2M profit. In contrast, the **Airport** store, despite contributing only 9% of total sales, recorded the highest **Average Order Value (AOV) at $18.85**.
+
+**LEGO Bricks** stood out as the best-selling product, generating $2M in sales with an AOV of $49.75, but frequently suffered from critically low stock levels.
+
+To boost profitability and stabilize sales, it is recommended to **increase stock levels** of top-selling, high-AOV items like LEGO Bricks and Electronics by 15–20% and introduce **promotional offers** during off-peak months (July–August) to counter seasonal sales dips.
 
 <p align="center">
-  <img src="joybox_ERD.PNG" alt="Dashboard Preview" width="590"/>
+  <img src="joybox_ERD.PNG" alt="Joybox Entity-Relationship Diagram" width="590"/>
 </p>
+
 ---
 
 ## Insights Deep-Dive
 
-### Sales Trends And Growth Rates
-- Total revenue reached $698K with overall upward trend. After a -6.7% dip in feburary, sales rebounded with 30% Growth in march with peaking in June at $166K.
-- March-May accounts for  53% of revenue, hinting at seasonality with high beverages demand in spring. 
-- Although sales continue to grow , the pace has slowed by june, suggesting demand stabilization.
-- Sales are evenly spread across all three NYC locations, indicating balance performance without reliance on single store.  
+### Sales Performance and Growth Rates
+
+- JoyBox achieved **$14M in total sales** and **$4M in profit** from 1M units sold between January 2022 and September 2023. Sales peaked in December 2022 at **$877K**.
+- Sales grew **16% in March** due to seasonal promotions, then began to decline, reaching a low of **-16% in August**, likely coinciding with the exam season.
+- The holiday surge in December showcased the highest growth, with a **32% month-over-month increase**.
+- **Overall, 2023 outperformed 2022** in both sales and profit, indicating positive year-over-year growth momentum.
 
 <p align="center">
-  <img src="visualization/sales_growth.PNG" alt="Dashboard Preview" width="590"/>
+  <img src="visualization/sales_growth.PNG" alt="Sales Growth Visualization" width="590"/>
 </p>
 
-### Peak Hours & Daily Sales Patterns
-- Sales surge during the morning rush (7–11 AM), contributing 46.2% of total sales, showing how critical these hours are for daily performance.
-- Lower Manhattan and Hell's kitchen dominates morning rush with 54% of their daily sales between 7–11 AM, compared to 43% in Astoria.
-- Between 2–5 PM, sales drop by 43% on average, suggesting untapped potential for snacks or promotional offers.
-- Hell’s Kitchen and Lower Manhattan loses momentum sharply after 8 PM (-78%) and 7 PM (-91%) , whereas Astoria maintains steadier late-hour traffic despite shorter operating hours.
+### Product and Category Performance
 
+- **Art & Crafts** and **Toys** together accounted for **54% of total sales**, establishing them as the store’s core revenue categories.
+- **Electronics** achieved the highest profit margin at **44%**, reflecting superior pricing power or cost efficiency.
+- **Books** and **Games** maintained stable but lower contributions, suggesting opportunities for cross-promotional or bundle strategies.
+- **LEGO Bricks** emerged as the top-selling product with **$2M in sales** and an AOV of **$49.75**, yet is frequently out of stock, indicating a critical supply gap.
+- **Deck of Cards** ranked among the top six contributors to sales despite its lower AOV, highlighting strong repeat purchases or high volume.
 
 <p align="center">
-  <img src="visualization/traffic.PNG" alt="Dashboard Preview" width="500"/>
+  <img src="visualization/traffic.PNG" alt="Product Performance Visualization" width="500"/>
 </p>
 
+### Store Insights
 
-### Top 10 Most Selling Products
-
-- The top 10 products contribute 80% of total sales volume, showing that customer demand is concentrated in a narrow set of items.
-- Brewed Chai Tea leads with the highest units sold (17K orders), while Barista Espresso dominates in revenue, contributing 13% of total sales.
-- Hot Chocolate matches the order volume of Brewed Black Tea and Brewed Herbal Tea, yet delivers a 3.5% higher revenue share, highlighting its higher value per order.
-- Regular and Sugar Syrup drive 4.7% of sales but only 1% of revenue, showing high demand but weak financial impact.
+- The **Downtown** store dominated performance with **$8M in sales** and **$2M in profit**, contributing **57% of overall revenue**.
+- The **Airport** store contributed only **9%** of total sales but achieved the highest **AOV of $18.85**, suggesting a customer base that makes fewer, higher-value purchases.
+- High sales concentration in Downtown points to dense customer traffic, while the Airport's premium AOV indicates occasional, high-value transactions.
+- **Commercial** and **Residential** stores contributed **23% and 11%** of sales, respectively, showing consistent mid-tier performance across months.
 
 <p align="center">
-  <img src="visualization/most_selling.PNG" alt="Dashboard Preview" width="600"/>
+  <img src="visualization/most_selling.PNG" alt="Store Sales Comparison Visualization" width="600"/>
 </p>
-
-
-### Product Categories by Revenue
-
-- Coffee and Tea account for 66.7% of total revenue, highlighting both a strength (consistent demand) and a dependency risk if consumer preferences shift.
-- Together with Bakery and Drinking Chocolate, the top four categories account for ~89% of revenue, meaning almost all sales are concentrated in a handful of categories.
-- Bakery (11.8%) and Drinking Chocolate (10.4%) play a strong supporting role, together adding over 20% of revenue, suggesting they’re key complements to Coffee/Tea purchases.
-- Coffee Beans (5.7%) generate a noticeable share with highest AOV $22.8 but lag behind ready-to-drink coffee/tea, reinforcing the idea that customers prefer immediate consumption over take-home products.
-- Branded, Loose Tea, Flavours, and Packaged Chocolate combined contribute less than 5.5% of revenue, highlighting very low consumer interest.
-
-<p align="center">
-  <img src="visualization/categorie.PNG" alt="Dashboard Preview" width="600"/>
-</p>
-
 
 ---
 
 ## Recommendations
 
-- Introducing a summer campaign or seasonal specials can help boost sales  during low growth month.
-- Since drinks dominate, speed and quality of beverage preparation during rush hours directly impact revenue and customer satisfaction,  as well as regular inventory supervision to keep revenue flow.
-- Extend Astoria’s hours to capture additional revenue, while considering earlier closing at Hell’s Kitchen and Lower Manhattan to optimize resources.
-- Coffee Beans, Branded products, Loose Tea has High AOV suggesting bundling, discounts, or marketing campaigns to increase sales.
-- Create loyalty programs for customers buying high-AOV products to sustain and promote growth for targeted segment.
-- Flavours has very low AOV , it could be bundled with other products to increase order value.
+- **Stabilize Seasonal Dips:** Sales dipped significantly (-16%) during July–August (exam period) but rebounded (+32%) in December. **Implement targeted promotions** or bundled offers during low-demand months and **increase marketing spend** in November–December to maximize holiday revenue.
+
+- **Boost Profit Margins with Electronics:** While Art & Crafts and Toys account for 54% of sales, **Electronics** showed the highest profit margin (44%). **Expand this category** by introducing 3–4 new electronic toy lines or cross-selling electronic add-ons to elevate overall profitability.
+
+- **Capitalize on Premium Traffic:** The Downtown store contributes 57% of sales, but the Airport store, despite lower volume (9%), recorded the highest **Average Order Value ($18.85)**. This suggests a premium customer base. **Introduce exclusive, high-margin, travel-friendly toys** or limited-edition gift bundles at Airport stores to boost profit conversion.
+
+- **Address Stockouts:** Top-selling, high-AOV products like **LEGO Bricks** are frequently out of stock. A critical step is to **increase inventory levels** for these top performers by 15–20% to prevent lost sales and maximize revenue capture.
 
 ---
 
