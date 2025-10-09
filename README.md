@@ -47,9 +47,16 @@ To boost profitability and stabilize sales, it is recommended to **increase stoc
 - The holiday surge in December showcased the highest growth, with a **32% month-over-month increase**.
 - **Overall, 2023 outperformed 2022** in both sales and profit, indicating positive year-over-year growth momentum.
 
-<p align="center">
-  <img src="visualization/sales_growth.PNG" alt="Sales Growth Visualization" width="590"/>
-</p>
+<table style="width:100%;">
+  <tr>
+    <td style="width:50%; text-align:center;">
+      <img src="2022_jb.PNG" alt="JoyBox Sales 2022" width="300"/>
+    </td>
+    <td style="width:60%; text-align:center;">
+      <img src="2023_jb.PNG" alt="JoyBox Sales 2023" width="350"/>
+    </td>
+  </tr>
+</table>
 
 ### Product and Category Performance
 
